@@ -3,8 +3,8 @@ import "../footer/footer.css";
 import { Link } from "react-scroll";
 
 // Replace these with actual environment variable or your real phone number
-const whatsappNumber = process.env.REACT_APP_WHATSAPP_NUMBER;
-const phoneNumber = "+1234567898"; // Add the country code for international format
+const whatsappNumber = +918535015786;
+const phoneNumber = "+918535015786"; // Add the country code for international format
 
 const Footer = () => {
   return (

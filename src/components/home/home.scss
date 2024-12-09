@@ -61,6 +61,7 @@ $breakpoint-lg: 1200px;
       margin-bottom: 20px;
       padding: 0 10px;
       border-radius: 6px;
+
       box-shadow: 0 0 100px 10px rgba(251, 7, 7, 0.3);
       overflow: hidden; // Ensure no content overflows out of the section
       transition: box-shadow 0.3s ease; // Add transition for hover effect
@@ -102,6 +103,9 @@ $breakpoint-lg: 1200px;
       }
 
       &:hover {
+        transition: transform 0.3s ease-in-out;
+
+        transform: translateY(-10px); /* Slight hover lift */
         box-shadow: 0 0 150px 20px rgba(251, 7, 7, 0.6); // Enhance shadow on hover for better UX
       }
     }

@@ -93,6 +93,8 @@
   transition: backdrop-filter 0.3s ease, -webkit-backdrop-filter 0.3s ease;
 }
 .home .home-container2 .home-container-section1:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-10px); /* Slight hover lift */
   box-shadow: 0 0 150px 20px rgba(251, 7, 7, 0.6);
 }
 .home .home-container2 .section1 {

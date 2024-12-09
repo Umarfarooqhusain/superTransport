@@ -31,6 +31,9 @@ const Header = () => {
               Our Services
             </Link>
           </li>
+          <li>
+            <a href="tel:+918535015786"> 📞 +91 8535015786</a>
+          </li>
         </ul>
       </nav>
 
@@ -70,6 +73,11 @@ const Header = () => {
             <Link to="ourServices" onClick={toggleSidebar}>
               Our Services
             </Link>
+          </li>
+          <li>
+            <a href="tel:+918535015786" aria-label="Call us">
+              📞 +91 8535015786
+            </a>
           </li>
         </ul>
       </aside>
